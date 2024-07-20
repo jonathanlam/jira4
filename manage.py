@@ -43,3 +43,5 @@ async def fetch_external_data(url: str):
         return response.text
     except httpx.RequestError as e:
         raise HTTPException(status_code=400, detail="Error fetching data")
+
+req = requests.get("api.example.com/getdata")
