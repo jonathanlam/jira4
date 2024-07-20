@@ -1,0 +1,4 @@
+integrations:
+  jira:
+    project_key: JIRAINT
+    issue_type: Task
