@@ -1,0 +1,1 @@
+req = requests.get("api.example.com/getdata")
